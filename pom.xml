@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>andrey</groupId>
+    <artifactId>flink-kafka</artifactId>
+    <version>1.0</version>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-connector-kafka-0.10_2.11 -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-kafka-0.10_2.11</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-streaming-scala_2.11 -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-streaming-scala_2.11</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-table_2.11 -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-table_2.11</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+
+    </dependencies>
+
+
+</project>
